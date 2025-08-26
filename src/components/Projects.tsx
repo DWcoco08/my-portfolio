@@ -14,6 +14,22 @@ const Projects = () => {
       github: "https://github.com/DWcoco08/developer-to-do-app",
       demo: "https://master.d1weac2kgesj9b.amplifyapp.com/",
     },
+    {
+      title: "IT Quiz Test",
+      description:
+        "Một trang test kiến thức IT với giao diện thân thiện và dễ sử dụng.",
+      image: "image/Screenshot 2025-08-26 160555.png",
+      tech: [
+        "React + vite",
+        "HTML",
+        "SASS",
+        "Bootstrap",
+        "Node.js",
+        "PostgreSQL",
+      ],
+      github: "https://github.com/DWcoco08/quizTest",
+      demo: null,
+    },
   ];
 
   return (
