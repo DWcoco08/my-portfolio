@@ -1,73 +1,70 @@
-# Welcome to your Lovable project
+# Portfolio Website
 
-## Project info
+🚀 Một trang web portfolio hiện đại và chuyên nghiệp được xây dựng bằng React và Vite.
 
-**URL**: https://lovable.dev/projects/805fddd3-07a4-4969-8071-27ce9050b5f3
+## 🌟 Tính năng
 
-## How can I edit this code?
+- 💡 Thiết kế hiện đại, responsive và thân thiện với người dùng
+- 🎨 Giao diện được xây dựng với Tailwind CSS và Shadcn/ui
+- 🔄 Hiệu ứng chuyển động mượt mà với animations
+- 📱 Tương thích hoàn toàn trên các thiết bị di động
+- 🌙 Hỗ trợ chế độ sáng/tối (Dark/Light mode)
 
-There are several ways of editing your application.
+## 🛠️ Công nghệ sử dụng
 
-**Use Lovable**
+- **Frontend Framework:** React + TypeScript
+- **Build Tool:** Vite
+- **Styling:** Tailwind CSS
+- **UI Components:** Shadcn/ui
+- **Icons:** React Icons + Lucide Icons
+- **Animations:** CSS Animations
+- **Version Control:** Git & GitHub
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/805fddd3-07a4-4969-8071-27ce9050b5f3) and start prompting.
+## 📋 Các phần chính
 
-Changes made via Lovable will be committed automatically to this repo.
+1. **Hero Section:** Giới thiệu bản thân và vai trò chuyên môn
+2. **About:** Thông tin chi tiết về kinh nghiệm và định hướng nghề nghiệp
+3. **Skills:** Hiển thị các kỹ năng và công nghệ thành thạo
+4. **Projects:** Trưng bày các dự án nổi bật
+5. **Contact:** Mẫu liên hệ và thông tin kết nối
 
-**Use your preferred IDE**
+## 🚀 Tính năng nổi bật
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- ⚡ Tối ưu hiệu suất với Vite
+- 📱 Responsive trên mọi kích thước màn hình
+- 🎨 Thiết kế tối giản và chuyên nghiệp
+- 🔄 Hiệu ứng chuyển động mượt mà
+- 🔍 SEO friendly
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 📥 Cài đặt và Sử dụng
 
-Follow these steps:
+```bash
+# Clone repository
+git clone [your-repo-link]
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+# Di chuyển vào thư mục dự án
+cd portfolio
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# Cài đặt dependencies
+npm install
 
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Chạy development server
 npm run dev
+
+# Build cho production
+npm run build
 ```
 
-**Edit a file directly in GitHub**
+## 🤝 Đóng góp
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Mọi đóng góp và góp ý đều được hoan nghênh! Hãy tự nhiên tạo issue hoặc pull request.
 
-**Use GitHub Codespaces**
+## 📫 Liên hệ
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+- Facebook: [Facebook Profile Link]
+- GitHub: [GitHub Profile Link]
+- LinkedIn: [LinkedIn Profile Link]
 
-## What technologies are used for this project?
+## 📝 License
 
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/805fddd3-07a4-4969-8071-27ce9050b5f3) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Copyright © 2023 DWuy. All rights reserved.
