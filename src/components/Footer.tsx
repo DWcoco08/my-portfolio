@@ -36,7 +36,7 @@ const Footer = () => {
               onClick={scrollToTop}
               className="text-2xl font-bold text-gradient hover:scale-105 transition-transform"
             >
-              DWuy
+              DUC HUY
             </button>
             <p className="text-muted-foreground mt-4 max-w-sm">
               Nhà phát triển web full-stack đam mê tạo ra những trải nghiệm web
@@ -96,7 +96,7 @@ const Footer = () => {
         <div className="border-t border-border pt-8 mt-8">
           <div className="text-center">
             <p className="text-muted-foreground text-sm">
-              © {currentYear} DWuy
+              © {currentYear} Portfolio của Đặng Nguyễn Đức Huy.
             </p>
           </div>
         </div>

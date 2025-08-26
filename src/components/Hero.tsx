@@ -25,7 +25,7 @@ const Hero = () => {
         <div className="fade-in-up">
           <h1 className="text-5xl md:text-7xl font-bold mb-6">
             Chào mừng đến với
-            <span className="block text-gradient">Portfolio của DWuy</span>
+            <span className="block text-gradient">Portfolio của tôi</span>
           </h1>
 
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto">

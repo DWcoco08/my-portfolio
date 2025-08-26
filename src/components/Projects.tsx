@@ -30,6 +30,15 @@ const Projects = () => {
       github: "https://github.com/DWcoco08/quizTest",
       demo: null,
     },
+    {
+      title: "Shine Smile frontend clone",
+      description:
+        "Một bản sao giao diện của trang web Shine Smile, tập trung vào thiết kế giao diện responsive và trải nghiệm người dùng.",
+      image: "image/Screenshot 2025-08-26 190735.png",
+      tech: ["HTML", "CSS"],
+      github: "https://github.com/DWcoco08/UI-Clone-Project",
+      demo: null,
+    },
   ];
 
   return (

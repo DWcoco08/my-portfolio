@@ -10,8 +10,8 @@ const About = () => {
     },
     {
       icon: Lightbulb,
-      title: "Giải pháp Sáng tạo",
-      description: "Tạo ra những ứng dụng web độc đáo và hiệu quả",
+      title: "Hiểu Source Code",
+      description: "Khả năng đọc và hiểu code nhanh chóng từ các dự án khác",
     },
     {
       icon: Users,
@@ -20,8 +20,8 @@ const About = () => {
     },
     {
       icon: Zap,
-      title: "Hiệu suất Cao",
-      description: "Tối ưu hóa ứng dụng cho trải nghiệm người dùng tốt nhất",
+      title: "Critical Thinking",
+      description: "Giải quyết vấn đề một cách logic và hiệu quả",
     },
   ];
 
