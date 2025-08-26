@@ -61,10 +61,10 @@ Mọi đóng góp và góp ý đều được hoan nghênh! Hãy tự nhiên t�
 
 ## 📫 Liên hệ
 
-- Facebook: [Facebook Profile Link]
-- GitHub: [GitHub Profile Link]
-- LinkedIn: [LinkedIn Profile Link]
+- Facebook: [\[Facebook Profile Link\]](https://www.facebook.com/share/1AuyUX5xbF/)
+- GitHub: [\[GitHub Profile Link\]](https://github.com/DWcoco08)
+- LinkedIn: [\[LinkedIn Profile Link\]](https://www.linkedin.com/in/dwuy-wiii-b72596370/)
 
 ## 📝 License
 
-Copyright © 2023 DWuy. All rights reserved.
+Copyright © 2025 DWuy. All rights reserved.
