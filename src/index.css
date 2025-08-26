@@ -1,0 +1,180 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Professional Portfolio Design System - Dark Theme with Blue Accents */
+
+@layer base {
+  :root {
+    /* Portfolio color scheme */
+    --background: 220 27% 8%; /* Deep navy background */
+    --foreground: 220 9% 94%; /* Light text */
+
+    /* Surface colors */
+    --surface: 220 20% 12%; /* Card background */
+    --surface-hover: 220 18% 16%; /* Hover state */
+
+    /* Brand colors */
+    --primary: 217 91% 60%; /* Bright blue */
+    --primary-foreground: 220 27% 8%; /* Dark text on primary */
+    --primary-glow: 217 91% 70%; /* Lighter blue for effects */
+
+    /* Accent gradient colors */
+    --accent-start: 217 91% 60%; /* Blue */
+    --accent-end: 266 85% 58%; /* Purple */
+
+    /* UI colors */
+    --card: 220 20% 12%;
+    --card-foreground: 220 9% 94%;
+    --border: 220 16% 22%;
+    --input: 220 20% 12%;
+    --ring: 217 91% 60%;
+    --muted: 220 16% 22%;
+    --muted-foreground: 220 9% 65%;
+
+    /* Semantic colors */
+    --secondary: 220 16% 22%;
+    --secondary-foreground: 220 9% 94%;
+    --accent: 217 91% 60%;
+    --accent-foreground: 220 27% 8%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 220 9% 94%;
+
+    /* Design tokens */
+    --radius: 0.75rem;
+    --gradient-primary: linear-gradient(
+      135deg,
+      hsl(var(--accent-start)),
+      hsl(var(--accent-end))
+    );
+    --gradient-subtle: linear-gradient(
+      180deg,
+      hsl(var(--surface)) 0%,
+      hsl(var(--background)) 100%
+    );
+    --shadow-glow: 0 0 40px hsl(var(--primary-glow) / 0.3);
+    --shadow-card: 0 10px 30px -10px hsl(217 91% 60% / 0.1);
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-inter;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer components {
+  /* Hero section styles */
+  .hero-gradient {
+    background: var(--gradient-primary);
+  }
+
+  .hero-glow {
+    box-shadow: var(--shadow-glow);
+  }
+
+  /* Card styles */
+  .portfolio-card {
+    @apply bg-surface border border-border rounded-xl p-6 transition-all duration-300;
+    box-shadow: var(--shadow-card);
+  }
+
+  .portfolio-card:hover {
+    @apply bg-surface-hover;
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-glow);
+  }
+
+  /* Button variants */
+  .btn-primary {
+    @apply px-8 py-4 rounded-xl font-semibold transition-all duration-300;
+    background: var(--gradient-primary);
+    color: hsl(var(--primary-foreground));
+    box-shadow: var(--shadow-card);
+  }
+
+  .btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-glow);
+  }
+
+  .btn-secondary {
+    @apply px-6 py-3 rounded-lg font-medium border border-border bg-surface hover:bg-surface-hover transition-all duration-300;
+  }
+
+  /* Progress bars */
+  .skill-progress {
+    @apply w-full bg-muted rounded-full h-3 overflow-hidden;
+  }
+
+  .skill-progress-fill {
+    @apply h-full rounded-full transition-all duration-1000 ease-out;
+    background: var(--gradient-primary);
+  }
+
+  /* Animations */
+  .fade-in-up {
+    @apply opacity-0 translate-y-8;
+    animation: fadeInUp 0.6s ease-out forwards;
+  }
+
+  .fade-in-left {
+    @apply opacity-0 -translate-x-8;
+    animation: fadeInLeft 0.6s ease-out forwards;
+  }
+
+  .fade-in-right {
+    @apply opacity-0 translate-x-8;
+    animation: fadeInRight 0.6s ease-out forwards;
+  }
+
+  /* Navbar blur effect */
+  .navbar-blur {
+    backdrop-filter: blur(10px);
+    background: hsl(var(--background) / 0.8);
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    background: var(--gradient-primary);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .border-gradient {
+    border-image: var(--gradient-primary) 1;
+  }
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInLeft {
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeInRight {
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
