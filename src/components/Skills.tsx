@@ -16,6 +16,8 @@ import {
   SiGithub,
   SiTypescript,
   SiFigma,
+  SiSupabase,
+  SiCloudflare,
 } from "react-icons/si";
 
 const Skills = () => {
@@ -54,6 +56,8 @@ const Skills = () => {
     { name: "Git/GitHub", icon: SiGithub },
     { name: "TypeScript", icon: SiTypescript },
     { name: "Figma", icon: SiFigma },
+    { name: "Supabase", icon: SiSupabase },
+    { name: "Cloudflare", icon: SiCloudflare },
   ];
 
   return (
