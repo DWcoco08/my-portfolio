@@ -1,0 +1,11 @@
+name = "dwuy-portfolio"
+type = "javascript"
+account_id = ""
+workers_dev = true
+main = "src/index.ts"
+site = { bucket = "dist" }
+build = { command = "npm run build", cwd = "./" }
+compatibility_date = "2024-01-01"
+
+[env.production]
+vars = { ENVIRONMENT = "production" }
