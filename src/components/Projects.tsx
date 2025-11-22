@@ -122,7 +122,7 @@ const Projects = () => {
 
         <div className="text-center mt-12">
           <a
-            href="https://github.com"
+            href="https://github.com/DWcoco08?tab=repositories"
             target="_blank"
             rel="noopener noreferrer"
             className="btn-secondary inline-flex items-center"
